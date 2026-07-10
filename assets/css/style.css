@@ -30,6 +30,11 @@ html, body {
     width: 100%;
 }
 
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+}
+
 .mynavbar-color{
     color: var(--text-color);
     background-color: var(--primary-color);
