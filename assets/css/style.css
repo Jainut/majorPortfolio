@@ -5,7 +5,7 @@ html, body {
 }
 
 .navbar {
-    border-bottom: 1px solid var(--accent-color);
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 .nav-link {
@@ -21,7 +21,7 @@ html, body {
     height: 2px;
     bottom: 0;
     left: 50%;
-    background-color: var(--accent-color);
+    background-color: var(--secondary-color);
     transition: width 0.3s ease;
     transform: translateX(-50%);
 }
@@ -45,11 +45,11 @@ html, body {
 }
 
 .mynavbar-color .nav-link:hover {
-    color: var(--accent-color);
+    color: var(--secondary-color);
 }
 
 .mynavbar-color .nav-link.active {
-    color: var(--accent-color);
+    color: var(--secondary-color);
 }
 
 .btn-custom {
@@ -59,6 +59,7 @@ html, body {
     --bs-btn-hover-border-color: var(--accent-color) !important;
 
     color: var(--text-color) !important;
+    border-radius: var(--border-radius);
 }
 
 .hero{
@@ -80,7 +81,7 @@ html, body {
 }
 
 .hero h1 span{
-    color: var(--accent-color);
+    color: var(--secondary-color);
 }
 
 .hero p{
