@@ -1,0 +1,19 @@
+html, body {
+    background-color: var(--background-primary);
+    font-family: var(--font-primary);
+    color: var(--text-color);
+}
+
+.mynavbar-color{
+    font-family: var(--font-primary);
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+.mynavbar-color .navbar-brand {
+    color: var(--text-color);
+}
+
+.mynavbar-color .nav-link {
+    color: var(--text-color);
+}
