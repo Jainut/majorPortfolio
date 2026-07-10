@@ -16,4 +16,13 @@ html, body {
 
 .mynavbar-color .nav-link {
     color: var(--text-color);
+    transition: color 0.3s ease;
+}
+
+.mynavbar-color .nav-link:hover {
+    color: var(--accent-color);
+}
+
+.mynavbar-color .nav-link.active {
+    color: var(--text-color);
 }
